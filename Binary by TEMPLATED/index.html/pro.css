@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+.a{
+    border-radius: 2px solid black;
+    padding: 22px;
+    background-color: rgb(16, 13, 13);
+    color: rgb(232, 221, 201);
+}
+#binary{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:large;
+}
+#template{
+font-weight:normal;
+font-family: serif;
+}
+#icon{
+    display: flex;
+    justify-content: right;
+    gap: 5px;
+    margin: -25px;
+    align-items: center;
+    float: right;
+    margin-right: 10px;
+    line-height: 0px;
+}
+#icon:hover{
+    color: white;
+    cursor: pointer;
+}
+.text{
+    text-align: center;
+    background-color: rgb(98, 98, 255);
+    width: 100%;
+    margin: -1px;
+    padding: 200px;
+    align-items: center;
+    font-size: 25px;
+    display:inline-block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.btn{
+    background-color: rgb(98, 98, 255);
+    padding: 20px;
+    border: 2px solid ;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    color: white;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    nav-down: auto;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover{
+    cursor: pointer;
+    color: white;
+}
+.left{
+    background-color: white;
+    padding: 20px;
+    border: 2px solid white;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+}
+.days{
+    margin: 20px;
+    display: flex;
+    justify-content: right;
+}
+.content{
+    padding: 2px;
+    text-align: right;
+    font-size: larger;
+
+}
+.lorem{
+    color: rgb(0, 152, 137);
+    font-family: sans-serif;
+}
+.jane{
+    color: rgb(0, 152, 137);
+}
+.para{
+    padding: 25px;
+}
+.btn2{
+    background-color: white;
+    padding: 10px;
+    border: 2px solid ;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    color: rgb(0, 152, 137);
+    margin-left: 500px;
+    padding-left: 40px;
+    padding-right: 40px;
+    nav-down: auto;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.templatedd{
+    color: white;
+    text-decoration: none;
+}
+.templatedd:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.right{
+    float: right;
+    padding-left: 300px;
+    margin-bottom: 100px;
+    border: 2px solid white;
+    width: 70%;
+    margin: 200px;
+    margin-right: 200px;
+    text-align: right;
+}
